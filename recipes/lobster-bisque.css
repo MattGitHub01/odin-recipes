@@ -1,0 +1,77 @@
+body {
+    background-color: lightskyblue;
+}
+
+h1 {
+    text-decoration: underline black;
+    font-size: 42px;
+    text-align: center;
+    color: black;
+    font-family: "Snell Roundhand", "cursive";
+}
+
+p {
+    margin: 40px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lititle {
+    text-decoration: underline black;
+}
+
+.numlist {
+    margin: 40px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.ullist {
+    padding: 10px;
+    list-style-type: none;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.backbtn {
+    margin: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
