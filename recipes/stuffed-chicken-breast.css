@@ -1,5 +1,9 @@
 body {
     background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 h1 {
@@ -17,11 +21,26 @@ p {
     font-size: 30px;
 }
 
-div {
+li {
+    margin: 20px;
+}
+
+.photo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+
+.background {
+    border-radius: 17%;
+    display: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+    width: 80vw;
+    background-color: blanchedalmond;
 }
 
 .lists {

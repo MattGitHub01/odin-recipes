@@ -1,5 +1,9 @@
 body {
     background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 h1 {
@@ -10,18 +14,22 @@ h1 {
     font-family: "Snell Roundhand", "cursive";
 }
 
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
-
 ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.background {
+    border-radius: 50%;
+    display: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+    width: 70vw;
+    background-color: blanchedalmond;
 }
 
 .listitem {
