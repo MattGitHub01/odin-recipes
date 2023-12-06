@@ -7,6 +7,12 @@ body {
 }
 
 h1 {
+    display: inline-flex;
+    background-color: plum;
+    border-radius: 50px 2px;
+    border: 2px solid black;
+    padding: 15px;
+    display: inline-flex;
     text-decoration: underline black;
     font-size: 42px;
     text-align: center;
@@ -33,7 +39,10 @@ li {
 }
 
 .background {
-    border-radius: 17%;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 370px;
+    border-bottom-right-radius: 370px;
     display: column;
     justify-content: center;
     text-align: center;
@@ -73,6 +82,10 @@ li {
     text-align: center;
     font-size: 24px;
     font-family: cursive;
+}
+
+h1:hover {
+    background-color: palevioletred;
 }
 
 a:link {
